@@ -36,3 +36,155 @@
     transform: rotate(360deg);
   }
 }
+
+.para{
+  background-color: rgb(228, 215, 250);
+  width: 1000px;
+  font-style: oblique;
+  font-size: medium;
+  color: black;
+  padding: 10px;
+  margin: auto;
+}
+
+body{
+  background-color: rgb(35, 107, 107);
+}
+
+.menu{
+  width: 80%;
+  text-align: left;
+  left: -100%;
+  transition: 0.5s;
+  position: fixed;
+  height: 100vh;
+  background-color: rgba(74, 166, 173, 0.215);
+}
+
+.activeMenu{
+  
+  left: 0px;
+}
+
+.menu ul li{
+  list-style: none;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight:normal ;
+  text-shadow: #61dafb;
+  padding: 10px 0;
+}
+
+.micon{
+  position: absolute;
+  right: 10px;
+  /* display: none; Hiding 3 lines of home , about section */
+}
+
+.modalOverLay{
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  display: none;
+  height: 100%;
+
+}
+
+.modalshow{
+  display: block;
+}
+
+.showModalshow{
+  top: 50%;
+}
+
+.ModalDiv{
+  width: 320px;
+  height: 320px;
+  transition: 0.3s;
+  position: fixed;
+  left: 50%;
+  /* top: -500px; */
+  transform: translate(-50%, -50%);
+  background-color: white;
+}
+
+.closebtn:hover {
+  cursor: pointer;
+  color: red;
+}
+
+.en{
+  position: fixed;
+  right: -30px;
+  top: 100px;
+  transform: rotate(90deg);
+}
+
+.faqouter{
+  width: 1320px;
+  margin: auto;
+  background-color: #26768cad;
+}
+
+.faqItems{
+  border: 1px solid red;
+  margin-bottom: 20px;
+}
+
+.faqItems h2{
+  margin: 0;
+  padding: 10px;
+  background-color: #282c34;
+  color: white;
+  cursor: pointer;
+  text-align: left;
+}
+
+.faqItems p{
+  text-align: left;
+  padding: 0px;
+  transition: 0.5s;
+  margin: 0;
+  height: 0;
+  transform: scaleY(0);
+}
+
+.activeAns{
+  height: auto !important;
+  transform: scaleY(1) !important;
+  padding: 10px !important;
+}
+
+.tabsOuter{
+  width: 1170px;
+  margin: auto;
+}
+
+.tabsOuter ul{
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 10px;
+}
+
+.tabsOuter ul li button{
+  background-color: #e4e4e4;
+  border: none;
+  color: #343a40;
+  padding: 0.5rem 20px;
+  margin-right: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.acticeButton{
+  color: white !important;
+  background-color: rgb(59, 80, 145) !important;
+}
+
+.heading{
+  color: burlywood;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
